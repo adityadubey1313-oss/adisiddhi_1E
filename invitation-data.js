@@ -202,7 +202,7 @@ const invitationData = {
     },
     {
       id: 'janeu-mandap-haldi',
-      title: { en: 'Yajnopavita (Janeu) Sanskar, Mandap and Tel-Haldi' },
+      title: { en: 'Yajnopavita (Janeu) Sanskar, Mandap, Tel-Haldi and Matrika Pooja' },
       date: '2026-12-04',
       day: { en: 'Friday' },
       start: '12:00',
