@@ -174,33 +174,6 @@ const invitationData = {
   },
   events: [
     {
-      id: 'devi-bhajan',
-      title: { en: 'Devi Bhajan' },
-      date: '2026-12-02',
-      day: { en: 'Wednesday' },
-      start: '14:00',
-      end: null,
-      venueId: 'skywayApartment'
-    },
-    {
-      id: 'mehendi',
-      title: { en: 'Mehendi' },
-      date: '2026-12-03',
-      day: { en: 'Thursday' },
-      start: '15:00',
-      end: null,
-      venueId: 'skywayApartment'
-    },
-    {
-      id: 'magarmaati',
-      title: { en: 'Magarmaati' },
-      date: '2026-12-03',
-      day: { en: 'Thursday' },
-      start: '17:00',
-      end: null,
-      venueId: 'skywayApartment'
-    },
-    {
       id: 'janeu-mandap-haldi',
       title: { en: 'Yajnopavita (Janeu) Sanskar, Mandap, Tel-Haldi and Matrika Pooja' },
       date: '2026-12-04',
