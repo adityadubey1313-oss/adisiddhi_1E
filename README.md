@@ -16,6 +16,12 @@ Standalone English website based on source project _1.
 - Assets: relative paths keep this package portable at its repository root.
 - Deployment: the repository-local workflow at .github/workflows/deploy-pages.yml publishes this package root to GitHub Pages.
 
+## Automatic scroll nudge
+
+- After a visible page finishes loading, 15 seconds without interaction triggers one 50 CSS pixel downward nudge over 800ms, clamped to available document space. Reloading starts a new visit.
+- Touch, pointer presses, clicks, wheel input, keyboard input, focus navigation, manual scrolling, hiding or leaving the page cancel the pending or active hint for that visit. Reduced motion disables it.
+- The hint uses native document scrolling without changing content, styling or controls. Run `node --test tests/scroll-nudge.test.cjs` for timing, interaction and lifecycle regressions.
+
 Push this package as the root of its own repository to publish it at the URL above.
 
 Publishing is isolated to `adityadubey1313-oss/adisiddhi_1E` on `main`. Do not push the parent source repository or run bulk-publishing scripts as part of this update. No files belonging to 2E or another version are required.
